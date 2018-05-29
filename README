@@ -1,4 +1,4 @@
-#Build and Deploy
+# Build and Deploy
 
 Source code layout:
 src
@@ -14,7 +14,7 @@ https://mvnrepository.com/artifact/com.facebook.presto/presto-spi/0.194
 https://mvnrepository.com/artifact/io.airlift/slice/0.10
 https://mvnrepository.com/artifact/com.google.guava/guava/21.0
 
-##Building the jar:
+## Building the jar:
 
 ```
 [~]$ mkdir lib build
@@ -45,7 +45,7 @@ com/henoc/presto/MyConcat.class
 com/henoc/presto/MyConcatPlugin.class
 META-INF/services/com.facebook.presto.spi.Plugin
 ```
-##Deploying the jar:
+## Deploying the jar:
 
 The plugin and all its necessary jars need to be deployed to a directory under plugin.config-dir (/usr/lib/presto/plugin/ on EMR) on all nodes of the cluster
 ```
