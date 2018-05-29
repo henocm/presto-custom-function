@@ -1,13 +1,14 @@
 # Build and Deploy
 
 Source code layout:
+```
 src
 └── com
     └── henoc
         └── presto
             ├── MyConcat.java
             └── MyConcatPlugin.java
-
+```
 
 For Presto 0.194 on EMR 5.13.0, I needed the following dependencies:
 https://mvnrepository.com/artifact/com.facebook.presto/presto-spi/0.194
